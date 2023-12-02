@@ -16,7 +16,7 @@
 }
 
 .navContainer img {
-  width: 44px;
+  width: 46px;
 }
 
 .navContainer nav ul {
@@ -26,8 +26,22 @@
   gap: 16px;
 }
 .navContainer nav ul a {
-  padding: 8px 16px;
+  margin: 0 8px;
   text-decoration: none;
   font-size: 18px;
-  color: #fff;
+  color: #000;
+  position: relative;
+  &::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: all 0.2s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
 }

@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../Pages/HomePage/HomePage";
-import About from "../Components/About/About";
-import Login from "../Components/Login/Login";
-import Users from "../Components/Users/Users";
+import About from "../Pages/About/About";
+import Login from "../Pages/Login/Login";
+import Users from "../Pages/Users/Users";
 import App from "../App";
-import Posts from "../Components/Posts/Posts";
+import Posts from "../Pages/Posts/Posts";
 import UserDetails from "../Components/UserDetails/UserDetails";
 
 const Routes = createBrowserRouter([
@@ -42,7 +42,6 @@ const Routes = createBrowserRouter([
     element: <UserDetails />,
     loader: ({ params }) =>
       fetch(`https://jsonplaceholder.typicode.com/users/${params.id}`),
-    lazy: () => import("../Components/UserDetails/UserDetails"),
   },
 
   {

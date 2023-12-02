@@ -1,0 +1,12 @@
+.post {
+  border: 2px solid #d5b942;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #edfbc1;
+  & h4 {
+    margin: 8px 0;
+  }
+  & p {
+    text-align: justify;
+  }
+}

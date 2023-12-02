@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
+
+* {
+  font-family: "Philosopher", sans-serif;
+}
+
+:root {
+  --primary-color: #d5b942;
+  --secondary-color: #d9d375;
+  --third-color: #e3de8f;
+  --fourth-color: #edfbc1;
+  --fifth-color: #bfcbc2;
+}
+
 .outlet {
   background-color: #bfcbc2;
   min-height: 84vh;
