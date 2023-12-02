@@ -1,0 +1,29 @@
+.userCard {
+  border: 2px solid #d5b942;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #edfbc1;
+}
+
+.userCard h3,
+.userCard h4 {
+  margin-bottom: 8px;
+}
+.userCard a {
+  display: block;
+  text-align: center;
+}
+.userCard button {
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  background-color: #d5b942;
+  border-radius: 0 0 6px 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 2px 2px #bfcbc2;
+  }
+}

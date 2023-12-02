@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navContainer {
+  background-color: #d5b942;
+}
+.navContainer nav {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navContainer img {
+  width: 44px;
+}
+
+.navContainer nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.navContainer nav ul a {
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}

@@ -1,0 +1,50 @@
+.userDetails {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(73, 73, 73);
+}
+.userDetails > div {
+  background-color: #edfbc1;
+  width: 60%;
+  padding: 48px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  position: relative;
+}
+
+.profilePic img {
+  border-radius: 16px;
+}
+
+.userDetails tr {
+  height: 32px;
+}
+
+td {
+  padding: 8px;
+}
+.userDetails tr td:first-child {
+  text-align: end;
+  font-weight: 600;
+}
+
+.closeBtn {
+  position: absolute;
+  color: red;
+  top: 24px;
+  right: 24px;
+  font-size: 40px;
+  background-color: lightcoral;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 1.5s;
+  &:hover {
+    transform: rotateZ(-720deg);
+  }
+}

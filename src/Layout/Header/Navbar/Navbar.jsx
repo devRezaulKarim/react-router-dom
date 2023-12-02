@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/Globe.svg";
+import logo from "../../../assets/Globe.svg";
+import "./Navbar.css";
 export default function Navbar() {
   return (
-    <div>
+    <div className="navContainer">
       <nav>
         <div>
           <img src={logo} alt="" />
@@ -15,13 +16,13 @@ export default function Navbar() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/posts">Posts</Link>
           </li>
           <li>
             <Link to="/login">Login</Link>
           </li>
           <li>
-            <Link to="/services">users</Link>
+            <Link to="/users">Users</Link>
           </li>
         </ul>
       </nav>

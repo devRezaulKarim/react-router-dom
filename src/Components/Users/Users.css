@@ -1,0 +1,10 @@
+.usersContainer {
+  max-width: 1200px;
+  margin: auto;
+}
+.users {
+  padding-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}

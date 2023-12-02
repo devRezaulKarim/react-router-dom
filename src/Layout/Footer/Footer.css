@@ -1,0 +1,8 @@
+.footerContainer {
+  max-width: 1200px;
+  margin: auto;
+}
+.footerContainer h1 {
+  text-align: center;
+  padding: 8px 0;
+}
