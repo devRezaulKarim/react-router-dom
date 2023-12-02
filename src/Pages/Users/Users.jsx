@@ -7,6 +7,7 @@ export default function Users() {
   return (
     <>
       <div className="usersContainer">
+        <h1 style={{ textAlign: "center", marginBottom: "16px" }}>Users</h1>
         <div className="users">
           {users.map((user) => (
             <User key={user.id} user={user} />
